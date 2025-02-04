@@ -1,0 +1,5 @@
+<h1>All Blogs</h1>
+<% @blogs.each do |blog| %>
+  <h2><%= link_to blog.title, blog %></h2>
+  <p>by <%= blog.author.name %></p>
+<% end %>
