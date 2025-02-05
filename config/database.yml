@@ -93,6 +93,6 @@ production:
   database: author_blog_development
   username: author_blog_development_user || postgres
   password: 8u0XMQsu5ciF4eRJmRaHTFI8HGHGNuoU || password
-  host: dpg-cuhk5hl6l47c73dsb1sg-a || localhost
+  host: dpg-cuhk5hl6l47c73dsb1sg-a
 
 
