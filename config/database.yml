@@ -25,9 +25,9 @@ development:
   <<: *default
   adapter: postgresql
   database: author_blog_development
-  username: postgres
-  password: password
-  host: localhost
+  username: author_blog_development_user || postgres
+  password: 8u0XMQsu5ciF4eRJmRaHTFI8HGHGNuoU || password
+  host: dpg-cuhk5hl6l47c73dsb1sg-a || localhost
   port: 5432
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
